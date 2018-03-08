@@ -36,5 +36,3 @@ def undistort(img, mtx, dist):
 	dst = dst[y:y+h, x:x+w]
 	return dst;
 
-
-
